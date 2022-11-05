@@ -1,8 +1,8 @@
 - title: Home
   url: ''
+  
+  - default: menu_about
+  url: 'about'
 
 - default: menu_category
   url: 'categories'
-
-- default: menu_about
-  url: 'about'
