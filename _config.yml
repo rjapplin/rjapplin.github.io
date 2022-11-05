@@ -6,11 +6,11 @@ title: Quantifica
 email: Jacob.Applin@Outlook.com
 name: R. Jacob Applin
 description: >- # this means to ignore newlines until "baseurl:"
-  Quantifying the world one blog post at a time.
+  Jacob Applin's blog. Quantifying the world one blog post at a time.
 keywords: [Your keywords]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'example.com' # the domain name for your site, e.g. example.com
+domain: 'rjapplin.github.io' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
