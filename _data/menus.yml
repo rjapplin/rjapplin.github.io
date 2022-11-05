@@ -1,7 +1,7 @@
-- default: menu_index
+- title: Home
   url:   ""
   
-- default: menu_about
+- title: About
   url:   "about"
 
 - title: Categories
