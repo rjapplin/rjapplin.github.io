@@ -8,7 +8,7 @@ name: R. Jacob Applin
 description: >- # this means to ignore newlines until "baseurl:"
   Jacob Applin's blog. Quantifying the world one blog post at a time.
 keywords: [Your keywords]
-baseurl: '/rjapplin' # the subpath of your site, e.g. /`blog
+baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'rjapplin.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'rjapplin.github.io' # the domain name for your site, e.g. example.com
 language: en
