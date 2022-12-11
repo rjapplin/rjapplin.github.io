@@ -2,11 +2,11 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Quantifica
+title: Jacob Applin
 email: Jacob.Applin@Outlook.com
 name: R. Jacob Applin
 description: >- # this means to ignore newlines until "baseurl:"
-  Jacob Applin's blog. Quantifying the world one blog post at a time.
+  I am an Economics Ph.D. candidate at the University of Kentucky. Here, you can find more information about me as well as a variety of resources.
 keywords: [Your keywords]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
