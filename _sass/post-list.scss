@@ -8,9 +8,29 @@
   overflow: hidden;
 }
 
+.posts-list-item.pinned {
+  font-weight: 500;
+}
+
 .posts-list-item-name {
   width: calc(100% - 100px);
   font-weight: 300;
+}
+
+.pinned-posts {
+  margin: 0 0 25px 0;
+  padding: 18px 20px 12px 20px;
+  border-left: 4px solid #0070f3;
+  background: #f5f9ff;
+}
+
+.pinned-posts-heading {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #004a9f;
 }
 
 .list-pagination {
