@@ -2,4 +2,5 @@
 layout: default
 ---
 
-{% include posts.html %}
+{% for post in site.posts %} {% if post.tags contains 'pinned' %} {% include posts.html %}  {% endif %} {% endfor %}
+{% for post in site.posts %} {% unless post.tags contains 'pinned' %} {% include posts.html %}  {% endunless %} {% endfor %}
