@@ -39,6 +39,10 @@ Jekyll Paper for Github is easy to create your own blog. You can create your blo
 
 You can add new posts at any time after you had your own blog. Create a new post need to add a new file in `_posts` directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
 
+### Pin a Post to the Top of the List
+
+If you want a post to stay at the top of the index page, add `pinned: true` to its front matter. Pinned posts are highlighted and remain above the regular reverse-chronological list on the first page of the blog.
+
 ## Custom Navigation Menu
 
 You can add or update navigation menu items in `_data/menus.yml` file. In the configuration file, you need set title and URL for every navigation menu item.

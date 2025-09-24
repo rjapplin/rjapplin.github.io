@@ -5,6 +5,7 @@ en:
   paginator_previous: 'Previous'
   paginator_pages: 'Page: '
   paginator_next: 'Next'
+  posts_pinned: 'Pinned'
   notification_404: 'Page not found :('
   post_write_date: 'Written on '
   post_update_date: 'updated at '
@@ -22,6 +23,7 @@ de:
   paginator_previous: 'Bisherige'
   paginator_pages: 'Seite: '
   paginator_next: 'Nächster'
+  posts_pinned: 'Angeheftet'
   notification_404: 'Seite nicht gefunden :('
   post_write_date: 'Geschrieben auf '
   post_update_date: 'aktualisiert am '
@@ -39,6 +41,7 @@ es:
   paginator_previous: 'Anterior'
   paginator_pages: 'Página: '
   paginator_next: 'Siguiente'
+  posts_pinned: 'Fijado'
   notification_404: 'Página no encontrada :('
   post_write_date: 'Escrito en '
   post_update_date: 'actualizado en '
@@ -56,6 +59,7 @@ it:
   paginator_previous: 'Precedente'
   paginator_pages: 'Pagina: '
   paginator_next: 'Successivo'
+  posts_pinned: 'In evidenza'
   notification_404: 'Pagina non trovata :('
   post_write_date: 'Scritto il '
   post_update_date: 'aggiornato il '
@@ -73,6 +77,7 @@ fr:
   paginator_previous: 'Précédent'
   paginator_pages: 'Page: '
   paginator_next: 'Prochain'
+  posts_pinned: 'Épinglé'
   notification_404: 'Page non trouvée :('
   post_write_date: 'Écrit sur '
   post_update_date: 'mis à jour à '
@@ -90,6 +95,7 @@ ja:
   paginator_previous: '前のページ'
   paginator_pages: 'ページ数：'
   paginator_next: '次のページ'
+  posts_pinned: '固定表示'
   notification_404: 'このページは見つかりませんでした：（'
   post_write_date: '公開された：'
   post_update_date: '更新日：'
@@ -107,6 +113,7 @@ pt:
   paginator_previous: 'Anterior'
   paginator_pages: 'Página: '
   paginator_next: 'Próximo'
+  posts_pinned: 'Fixado'
   notification_404: 'Página não encontrada :('
   post_write_date: 'Escrito em '
   post_update_date: 'atualizado em '
@@ -124,6 +131,7 @@ zh-cn:
   paginator_previous: '前一页'
   paginator_pages: '页数：'
   paginator_next: '后一页'
+  posts_pinned: '置顶'
   notification_404: '找不到此页：（'
   post_write_date: '发表于'
   post_update_date: '更新于'
@@ -141,6 +149,7 @@ zh-tw:
   paginator_previous: '前一頁'
   paginator_pages: '頁數：'
   paginator_next: '後一頁'
+  posts_pinned: '置頂'
   notification_404: '找不到此頁：（'
   post_write_date: '發表於'
   post_update_date: '更新於'
@@ -158,6 +167,7 @@ tr:
   paginator_previous: 'Geri'
   paginator_pages: 'Sayfa: '
   paginator_next: 'İleri'
+  posts_pinned: 'Sabitli'
   notification_404: 'Sayfa bulunamadı :('
   post_write_date: 'Yazım tarihi '
   post_update_date: 'Güncellenme tarihi '
@@ -175,6 +185,7 @@ ko:
   paginator_previous: "이전"
   paginator_pages: "페이지: "
   paginator_next: "다음"
+  posts_pinned: "상단 고정"
   notification_404: "페이지를 찾을 수 없습니다:("
   post_write_date: "작성일"
   post_update_date: "업데이트된 날짜"
