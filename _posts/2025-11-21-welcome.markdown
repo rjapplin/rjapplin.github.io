@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Welcome"
+date:   2020-11-21
+last_modified_at: 2025-11-21
+categories: [welcome]
+pinned: true
+---
+
+This is website and blog is a place for me to collect and post musings on statistics, econometrics, data science - and all other jazz that's related...and maybe sometimes jazz that isn't related.
