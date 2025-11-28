@@ -2,11 +2,11 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Jacob Applin
-email: Jacob.Applin@Outlook.com
+title: Jacob Applin, Ph.D.
+email: Jacob.Applin@proton.me
 name: R. Jacob Applin
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! I am an applied economist and data scientist based out of Lexington, Ky. I am lucky to be an Econometrician at Tinuiti. I specialize in fusing economic theory with data to understand  the world.
+  Welcome! I am a Ph.D. economist and data scientist based out of Lexington, Ky. I am lucky to be an Econometrician at Tinuiti. I specialize in fusing economic theory with data to understand  the world.
 keywords: [Your keywords]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
