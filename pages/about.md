@@ -29,7 +29,7 @@ SSRN: [Jacob Applin](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=58
 - M.A. in Applied Economics (Mathematical Concentration) from Western Kentucky University in May 2019
     - Thesis: Applin, R. Jacob (2019). [Industry Concentration and Average Stock Returns Revisited].(https://people.wku.edu/david.zimmer/index_files/applin.pdf)
 - B.S. in Economics (with minors in mathematics and history) from Murray State University in May 2017
--   Thesis: Applin, R. Jacob (2017). Review Prohibition Periods as a Signal of Video Game Quality. Honors College Theses. 13. [https://digitalcommons.murraystate.edu/honorstheses/13](https://digitalcommons.murraystate.edu/honorstheses/13).
+    - Thesis: Applin, R. Jacob (2017). Review Prohibition Periods as a Signal of Video Game Quality. Honors College Theses. 13. [https://digitalcommons.murraystate.edu/honorstheses/13](https://digitalcommons.murraystate.edu/honorstheses/13).
 
 ## Experience
 
