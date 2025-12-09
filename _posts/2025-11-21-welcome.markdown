@@ -7,4 +7,4 @@ categories: [welcome]
 pinned: true
 ---
 
-This is website and blog is a place for me to collect and post musings on statistics, econometrics, data science - and all other jazz that's related...and maybe sometimes jazz that isn't related.
+This website and blog is a place for me to collect and post musings on statistics, econometrics, data science - and all other jazz that's related...and maybe sometimes jazz that isn't related.
