@@ -49,5 +49,5 @@ Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t
 ## Experience
 
 - *Econometrician for [**Tinuiti**](https://tinuiti.com) from April 2025 to Present*
-- *Data Scientist for [**Fidelity Investments**](https://www.fidelity.com) from April 2023 to Present*
+- *Data Scientist for [**Fidelity Investments**](https://www.fidelity.com) from April 2023 to April 2025*
 - *Graduate Assistant for [University of Kentucky Department of Economics](https://gatton.uky.edu/faculty-research/departments/economics) from August 2019 to May 2023*
