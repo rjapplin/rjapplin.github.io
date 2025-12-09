@@ -10,6 +10,10 @@ On the work side of life, I'm a big fan of [**R**](https://www.r-project.org/), 
 
 Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t+1})] $$.
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 ## Links
 
 *GitHub*: [**rjapplin**](https://github.com/rjapplin)
@@ -19,6 +23,10 @@ Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t
 *ORCID*: [**0009-0005-0199-9332**](https://orcid.org/0009-0005-0199-9332)
 
 *SSRN*: [**Jacob Applin**](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=5825449)
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## Education
 
@@ -33,6 +41,10 @@ Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t
 
 - *B.S. in Economics (with minors in mathematics and history) from Murray State University in May 2017*
     - Thesis: Applin, R. Jacob (2017). *Review Prohibition Periods as a Signal of Video Game Quality*. Honors College Theses. 13. [**https://digitalcommons.murraystate.edu/honorstheses/13**](https://digitalcommons.murraystate.edu/honorstheses/13).
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## Experience
 
