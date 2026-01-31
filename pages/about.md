@@ -4,9 +4,15 @@ title: About
 permalink: /about/
 ---
 
+&nbsp;
+
 I am a data scientist with formal training and research experience in economics, statistics/econometrics, causal inference, and firm strategy/industrial organization. Currently, I am lucky to work as an Econometrician for Tinuiti. I hold a Ph.D. in economics from the University of Kentucky.
 
+&nbsp;
+
 On the work side of life, I'm a big fan of [**R**](https://www.r-project.org/), [**SQL**](https://en.wikipedia.org/wiki/SQL), [**Julia**](https://julialang.org/), [**Python**](https://www.python.org/), [**VSCodium**](https://github.com/VSCodium), and [**LaTeX**](https://www.latex-project.org//). On the personal side of life, I'm a big fan of Animal Crossing, coffee, and golf.
+
+&nbsp;
 
 Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t+1})] $$.
 
@@ -18,9 +24,15 @@ Always trying to make choices to assure that $$ u'(C_t) = (1+r)\beta E_t[u'(C_{t
 
 *GitHub*: [**rjapplin**](https://github.com/rjapplin)
 
+&nbsp;
+
 *LinkedIn*: [**Jacob Applin, Ph.D.**](https://www.linkedin.com/in/jacob-applin-econ)
 
+&nbsp;
+
 *ORCID*: [**0009-0005-0199-9332**](https://orcid.org/0009-0005-0199-9332)
+
+&nbsp;
 
 *SSRN*: [**Jacob Applin**](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=5825449)
 
