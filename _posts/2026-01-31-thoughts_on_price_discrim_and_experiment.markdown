@@ -7,6 +7,8 @@ categories: [economics]
 pinned: false
 ---
 
+&nbsp;
+
 In light of some companies catching heat over price experimentation, I’ve seen quite a few takes from data scientists and economists. Many of these takes have lamented that it’s such a shame - not just because the loss of such amazing data (which, yes, consumer level data on price-quantity? Yeah, that’s a dream), but because price discrimination is welfare improving. 
 
 &nbsp;
@@ -212,7 +214,7 @@ However, a key phrase above is “from a purely economic standpoint.” Perhaps 
 
 &nbsp;
 
-First, Suppose, for example, that $$D(p^{*}) = 0.99$$. This means that under the single price regime $$99\%$$ of consumers purchase the product. This means that if the firm towards perfect discrimination, $99\%$ of consumers have their surplus wiped out all in the name of the remaining $$1\%$$ of consumers being able to buy. Surly this feels less than “good.” In the other extreme, though, say $$D(p^{*}) = 0.01$$. This means only $$1\%$$ buy under the single price regime. Perhaps in this case we feel it is justifiable to wipe out that $$1\%$$ of consumers’ surplus in the name of enabling the other $$99\%$$ to buy. In other words, the amount by which quantity increases is a useful metric for thinking through whether the cost to the original consumers is worth it.
+First, Suppose, for example, that $$D(p^{*}) = 0.99$$. This means that under the single price regime $$99\%$$ of consumers purchase the product. This means that if the firm towards perfect discrimination, $$99\%$$ of consumers have their surplus wiped out all in the name of the remaining $$1\%$$ of consumers being able to buy. Surly this feels less than “good.” In the other extreme, though, say $$D(p^{*}) = 0.01$$. This means only $$1\%$$ buy under the single price regime. Perhaps in this case we feel it is justifiable to wipe out that $$1\%$$ of consumers’ surplus in the name of enabling the other $$99\%$$ to buy. In other words, the amount by which quantity increases is a useful metric for thinking through whether the cost to the original consumers is worth it.
 
 &nbsp;
 
@@ -221,6 +223,8 @@ Second, we might also want to think about the ratio of new marginal surplus, $$\
 &nbsp;
 
 Ultimately, though, regardless of normative nuances we want to add, the fundamental economic conclusion remains the same: Perfect price discrimination wipes out all consumer surplus in the name of profits. Firms do not dream about it in the name of making consumers better off!
+
+&nbsp;
 
 ### Competition Matters
 
@@ -253,6 +257,10 @@ Specifically, lesser degrees of price discrimination *can* improve consumer welf
 ## Concluding Thoughts
 
 To be normative for a moment, we ought to be suspicious whenever firms try to justify large-scale consumer level price experiments. Chances are they aren’t engaging in it because they want to make their customers better off - rather, they’re engaging in it probably because they’re salivating at the thought of being able to extract every last dollar they can out of each individual person. Moreover, the firms that have the means and scale to engage in such practices print enough money as is. Let’s not fool ourselves into thinking they’re out here providing “personalized” prices to make people better off.
+
+&nbsp;
+
+---
 
 [^1]: Our assumption of a constant marginal cost structure is not necessary for this result. The math becomes a bit uglier, but with some basic fixed point theory, one can achieve the same qualitative result with a quantity dependent cost structure given some standard regularity conditions.
 
