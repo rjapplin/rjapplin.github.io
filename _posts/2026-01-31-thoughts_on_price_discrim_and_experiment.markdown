@@ -15,9 +15,9 @@ In this post, I review the basic theory of *perfect price discrimination*. Witho
 
 ## Perfect Price Discrimination: A Welfare Utopia...For the Firm
 
-Let $q=D(p)$ denote the demand curve for some product. We will assume typical properties -- including $D'(p) \leq 0$. In addition, we will denote the choke price (the price at which $D(p) = 0$) as $\bar{M}$. Note that depending on functional form, $\bar{M}$ may be “equal” to $\infty$.
+Let $$q=D(p)$$ denote the demand curve for some product. We will assume typical properties -- including $$D'(p) \leq 0$$. In addition, we will denote the choke price (the price at which $$D(p) = 0$$) as $$\bar{M}$$. Note that depending on functional form, $$\bar{M}$$ may be “equal” to $\infty$.
 
-Under the classical model in which the firm can only charge a single price, the firm sets $p$ such that $D’(p) = c$ where $c$ is marginal cost. Under our simplifying assumption that $c = 0$, we will have that $D’(p) = 0$ at the firm’s optimal price - which we will denote as $p^*$. The firm’s profit, $\pi$, will be given by 
+Under the classical model in which the firm can only charge a single price, the firm sets $$p$$ such that $$D’(p) = c$$ where $$c$$ is marginal cost. Under our simplifying assumption that $$c = 0$$, we will have that $$D’(p) = 0$$ at the firm’s optimal price - which we will denote as $$p^*$$. The firm’s profit, $$\pi$$, will be given by 
 
 $$\pi^{sp} = p^*D(p^{\*})$$
 
