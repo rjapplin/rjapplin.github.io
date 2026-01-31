@@ -265,5 +265,7 @@ To be normative for a moment, we ought to be suspicious whenever firms try to ju
 [^1]: Our assumption of a constant marginal cost structure is not necessary for this result. The math becomes a bit uglier, but with some basic fixed point theory, one can achieve the same qualitative result with a quantity dependent cost structure given some standard regularity conditions.
 
 
-[^2]: Our use of the uniform distribution is not material here - the mathematics are just much easier to sketch out. In turn, that we focused on one consumer is not material either. Provided the firm can enforce different prices to different consumers, and provided the firm can engage in the tracking required, nothing prevents this example from extending to $n$ consumers.
+[^2]: Our use of the uniform distribution is not material here - the mathematics are just much easier to sketch out. In turn, that we focused on one consumer is not material either. Provided the firm can enforce different prices to different consumers, and provided the firm can engage in the tracking required, nothing prevents this example from extending to $$n$$ consumers.
+
+---
 
