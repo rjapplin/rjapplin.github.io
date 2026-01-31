@@ -69,22 +69,22 @@ Assume a consumer values a product at $$v$$ where $$v$$ is drawn from a distribu
 
 If the firm is able to track this consumer’s behavior, it can learn $$v$$. To see this, let $$v^{*}$$ denote the consumer’s true willingness to pay. Since the firm knows $$v^{*}$$ is drawn from $$f(v)$$, suppose the firm sets an initial price, $$p_0$$ equal to $$E[v] = \int_{0}^{\bar{v}} vf(v)dv$$. After setting a price, the firm observes the following random variable, $$\pi_0$$:
 
-$$\pi_0 = \begin{cases} 0 \text{ if } p > v^* \\ p \text{ if } p \leq v^* \end{cases}$$
+$$\pi_0 = \begin{cases} 0 \text{ if } p > v^{*} \\ p \text{ if } p \leq v^{*} \end{cases}$$
 
 Since $p_0 = E[v]$, this is
 
-$$\pi_0 = \begin{cases} 0 \text{ if } E[v] > v^* \\ E[v] \text{ if } E[v] \leq v^* \end{cases}$$
+$$\pi_0 = \begin{cases} 0 \text{ if } E[v] > v^{*} \\ E[v] \text{ if } E[v] \leq v^{*} \end{cases}$$
 
 Consider the two cases.
 
-In the first case, if the firm observes $$\pi_0 = 0$$, then it must be the case that $$E[v] > v^*$$. Then, the firm knows that $$v$$ must be drawn from the truncated distribution $$f_1(v|\pi_0 = 0)$$ with support $$[0, E[v]]$$. It follows then that a logical price to charge is $$p_1 = E_{f_1(v|\pi_0=0)}[v]$$.
+In the first case, if the firm observes $$\pi_0 = 0$$, then it must be the case that $$E[v] > v^{*}$$. Then, the firm knows that $$v$$ must be drawn from the truncated distribution $$f_1(v \vert \pi_0 = 0)$$ with support $$[0, E[v]]$$. It follows then that a logical price to charge is $$p_1 = E_{f_1(v \vert pi_0=0)}[v]$$.
 
-In the second case, if the firm observes $$\pi_0 = E[v]$$, then it must be the case that $$E[v] \leq v^*$$. Then, the firm knows that $$v$$ must be drawn from the truncated distribution $$f_1(v|\pi=E[v])$$ with support $$[E[v], \bar{v}]$$. It follows then that a logical price to charge is $$p_1 = E_{f_1(v|\pi_0 = E[v])}[v]$$. 
+In the second case, if the firm observes $$\pi_0 = E[v]$$, then it must be the case that $$E[v] \leq v^{*}$$. Then, the firm knows that $$v$$ must be drawn from the truncated distribution $$f_1(v \vert \pi=E[v])$$ with support $$[E[v], \bar{v}]$$. It follows then that a logical price to charge is $$p_1 = E_{f_1(v \vert \pi_0 = E[v])}[v]$$. 
 
 In summary, the firm’s second price, $$p_1$$, will be
 
-$$\begin{aligned}p_1 = \begin{cases} E_{f_1(v|\pi_0=0)}[v] \text{ if } \pi_0 = 0 \\ 
-E_{f_1(v|\pi_0 = E[v])}[v] \text{ if } \pi_0 = E[v] \end{cases}\end{aligned}$$
+$$\begin{aligned}p_1 = \begin{cases} E_{f_1(v \vert \pi_0=0)}[v] \text{ if } \pi_0 = 0 \\ 
+E_{f_1(v \vert \pi_0 = E[v])}[v] \text{ if } \pi_0 = E[v] \end{cases}\end{aligned}$$
 
 We can extrapolate to the $$ith$$ price for $$i\geq 1$$. To do so, let $$b_i$$ be an indicator for whether the consumer purchases in round $$i$$. Then,
 
@@ -173,7 +173,7 @@ But under perfect discrimination, these consumers lose all of their surplus. Lik
 
 However, a key phrase above is “from a purely economic standpoint.” Perhaps there may be reason to believe it is “good” the new consumers can purchase. This is certainly a possibility. However, such a notion moves away from the rigorous lens of economic efficiency and instead moves towards normative ideals. We can reason through some possible heuristics that might suggest whether the cost to original consumers is “good” in the name of other consumers being able to buy.
 
-First, Suppose, for example, that $$D(p^{*}) = 0.99$. This means that under the single price regime $$99\%$$ of consumers purchase the product. This means that if the firm towards perfect discrimination, $99\%$ of consumers have their surplus wiped out all in the name of the remaining $$1\%$$ of consumers being able to buy. Surly this feels less than “good.” In the other extreme, though, say $$D(p^{*}) = 0.01$$. This means only $$1\%$$ buy under the single price regime. Perhaps in this case we feel it is justifiable to wipe out that $$1\%$$ of consumers’ surplus in the name of enabling the other $$99\%$$ to buy. In other words, the amount by which quantity increases is a useful metric for thinking through whether the cost to the original consumers is worth it.
+First, Suppose, for example, that $$D(p^{*}) = 0.99$$. This means that under the single price regime $$99\%$$ of consumers purchase the product. This means that if the firm towards perfect discrimination, $99\%$ of consumers have their surplus wiped out all in the name of the remaining $$1\%$$ of consumers being able to buy. Surly this feels less than “good.” In the other extreme, though, say $$D(p^{*}) = 0.01$$. This means only $$1\%$$ buy under the single price regime. Perhaps in this case we feel it is justifiable to wipe out that $$1\%$$ of consumers’ surplus in the name of enabling the other $$99\%$$ to buy. In other words, the amount by which quantity increases is a useful metric for thinking through whether the cost to the original consumers is worth it.
 
 Second, we might also want to think about the ratio of new marginal surplus, $$\Delta W$$ to the original consumer surplus. If $$\Delta W$$ is “big” relative to the original consumer surplus, this indicates there was a lot of value being restricted by the single price regime. In contrast, if $$\Delta W$$ is “small” relative to original consumer surplus, this means that the firm is killing off all consumer surplus in the name of small profit gains.
 
