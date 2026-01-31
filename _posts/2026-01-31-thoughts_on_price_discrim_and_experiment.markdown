@@ -15,21 +15,21 @@ In this post, I review the basic theory of *perfect price discrimination*. Witho
 
 ## Perfect Price Discrimination: A Welfare Utopia...For the Firm
 
-Let $$q=D(p)$$ denote the demand curve for some product. We will assume typical properties -- including $$D'(p) \leq 0$$. In addition, we will denote the choke price (the price at which $$D(p) = 0$$) as $$\bar{M}$$. Note that depending on functional form, $$\bar{M}$$ may be “equal” to $\infty$.
+Let $$q=D(p)$$ denote the demand curve for some product. We will assume typical properties -- including $$D'(p) \leq 0$$. In addition, we will denote the choke price (the price at which $$D(p) = 0$$) as $$\bar{M}$$. Note that depending on functional form, $$\bar{M}$$ may be “equal” to $$\infty$$.
 
 Under the classical model in which the firm can only charge a single price, the firm sets $$p$$ such that $$D’(p) = c$$ where $$c$$ is marginal cost. Under our simplifying assumption that $$c = 0$$, we will have that $$D’(p) = 0$$ at the firm’s optimal price - which we will denote as $$p^*$$. The firm’s profit, $$\pi$$, will be given by 
 
-$$\pi^{sp} = p^*D(p^{\*})$$
+$$\pi^{sp} = p^*D(p^{*})$$
 
-and consumer surplus, $CS$, will be given by 
+and consumer surplus, $$CS$$, will be given by 
 
-$$CS^{sp} = \lim_{M\rightarrow \bar{M}}\int_{p^{\*}}^{M} D(p)dp.$$ 
+$$CS^{sp} = \lim_{M\rightarrow \bar{M}}\int_{p^{*}}^{M} D(p)dp.$$ 
 
-Consequently, total welfare, $W$, is given by 
+Consequently, total welfare, $$W$$, is given by 
 
 $$W^{sp} = p^{\*} D(p^{\*}) + \lim_{M\rightarrow \bar{M}}\int_{p^{\*}}^{M} D(p)dp.$$
 
-Now suppose that the firm is able to perfectly price discriminate. In the case of perfect price discrimination, the firm charges each consumer exactly their willingness to pay. Consequently, the marginal revenue curve will be equal to $D(p)$. Of course the firm will never want to set $p < c$ -- in this case, the firm will never want to set $p < 0$. Hence, the lowest price charged is 0. Any price above $c$ will be desirable. Hence, the highest price is $p$ such that $\bar{p} = \lim_{M\rightarrow \bar{M}} M$. 
+Now suppose that the firm is able to perfectly price discriminate. In the case of perfect price discrimination, the firm charges each consumer exactly their willingness to pay. Consequently, the marginal revenue curve will be equal to $$D(p)$$. Of course the firm will never want to set $$p < c$$ -- in this case, the firm will never want to set $$p < 0$$. Hence, the lowest price charged is 0. Any price above $$c$$ will be desirable. Hence, the highest price is $$p$$ such that $$\bar{p} = \lim_{M\rightarrow \bar{M}} M$$. 
 
 As a result, the firm’s profit will be expressed as 
 
@@ -39,17 +39,17 @@ Moreover, since each consumer pays exactly their willingness to pay, it must be 
 
 $$W^{ppd} = \pi^{ppd} + 0.$$
 
-Now, let $p^{\*}$ refer to the optimal price under the classic single price model above. Then, note that we can write
+Now, let $p^{*}$ refer to the optimal price under the classic single price model above. Then, note that we can write
 
-$$\pi^{ppd}=\lim_{M\rightarrow \bar{M}} \int_{0}^{M} D(p)dp = \int_{0}^{p^{\*}} D(p)dp + \lim_{M\rightarrow \bar{M}} \int_{p^{\*}}^M D(p)dp.$$ 
+$$\pi^{ppd}=\lim_{M\rightarrow \bar{M}} \int_{0}^{M} D(p)dp = \int_{0}^{p^{*}} D(p)dp + \lim_{M\rightarrow \bar{M}} \int_{p^{*}}^M D(p)dp.$$ 
 
-Comparing to $W^{sp}$, note that
+Comparing to $$W^{sp}$$, note that
 
-$$W^{ppd} - W^{sp} = \int_{0}^{p^{\*}} D(p)dp - p^{\*} D(p^{\*})$$
+$$W^{ppd} - W^{sp} = \int_{0}^{p^{*}} D(p)dp - p^{\*} D(p^{*})$$
 
-Suppose that $\int_{0}^{p^{\*}} D(p)dp \leq p^{\*}D(p^{\*})$. Since $D’(p) \leq 0$ (by assumption), it must be that $D(p) \geq D(p^{\*})$ for all $p \leq p^{\*}$. The only way this can be true is if $D(p) = D(p^{\*})$ on $[0, p^{\*}]$. But, this would imply $pD(p) = pD(p^{\*})$ is strictly increasing in $p$. Consequently, $p^{\*}$ cannot be the maximizer, which is a contradiction. Hence, it must be that $\int_{0}^{p^{\*}} D(p)dp > p^{\*}D(p^{\*})$, meaning, $W^{ppd} > W^{sp}$.
+Suppose that $$\int_{0}^{p^{*}} D(p)dp \leq p^{*}D(p^{*})$$. Since $$D’(p) \leq 0$$ (by assumption), it must be that $$D(p) \geq D(p^{*})$$ for all $$p \leq p^{*}$$. The only way this can be true is if $$D(p) = D(p^{*})$ on $[0, p^{*}]$$. But, this would imply $$pD(p) = pD(p^{*})$$ is strictly increasing in $$p$$. Consequently, $$p^{*}$$ cannot be the maximizer, which is a contradiction. Hence, it must be that $$\int_{0}^{p^{*}} D(p)dp > p^{*}D(p^{*})$$, meaning, $$W^{ppd} > W^{sp}$$.
 
-Moreover, note that at the lowest price of 0, $q=\lim_{p\rightarrow 0} D(p) = \bar{M}$. Under the ideal of perfect competition, the optimal price is $p$ such that $p=c$. In our case, this would imply $p=0$ under perfect competition. It follows then that the perfect competition result will have $q = \lim_{p\rightarrow 0} D(p) = \bar{M}$. It is easy to see profit will be 0 in this case and consumer surplus will be given by $\lim_{M\rightarrow \bar{M}} \int_{0}^M D(p)dp$. Hence, under single price perfect competition, 
+Moreover, note that at the lowest price of 0, $$q=\lim_{p\rightarrow 0} D(p) = \bar{M}$$. Under the ideal of perfect competition, the optimal price is $$p$$ such that $$p=c$$. In our case, this would imply $$p=0$$ under perfect competition. It follows then that the perfect competition result will have $$q = \lim_{p\rightarrow 0} D(p) = \bar{M}$$. It is easy to see profit will be 0 in this case and consumer surplus will be given by $$\lim_{M\rightarrow \bar{M}} \int_{0}^M D(p)dp$$. Hence, under single price perfect competition, 
 
 $$W^{pc} = \lim_{M\rightarrow \bar{M}}\int_{0}^M D(p)dp.$$
 
@@ -63,7 +63,7 @@ What does this all mean? In words, perfect price discrimination achieves the ide
 
 The problem with perfect price discrimination is that it requires the firm to know each consumers’ willingness to pay. For most of human history, this has been the hurdle preventing firms from being able to achieve the dream. Today, though, the ability to collect consumer level data permit the possibility of learning a consumer’s willingness to pay. In this section, we sketch a simple example involving a firm attempting to learn the willingness to pay of a single consumer.
 
-Assume a consumer values a product at $v$ where $v$ is drawn from a distribution $f(v)$. We will assume $f(v)$ has support over $[0, \bar{v}]$. The consumer will buy if and only if the price, $p$ is $\leq v$. If the firm could perfectly price discriminate, it would charge this consumer exactly $v$. Starting out, however, the firm does not know $v$. We will, assume, however that the firm knows $v$ is drawn from $f(v)$. 
+Assume a consumer values a product at $$v$ where $v$$ is drawn from a distribution $f(v)$. We will assume $f(v)$ has support over $[0, \bar{v}]$. The consumer will buy if and only if the price, $p$ is $\leq v$. If the firm could perfectly price discriminate, it would charge this consumer exactly $v$. Starting out, however, the firm does not know $v$. We will, assume, however that the firm knows $v$ is drawn from $f(v)$. 
 
 If the firm is able to track this consumer’s behavior, it can learn $v$. To see this, let $v^{\*}$ denote the consumer’s true willingness to pay. Since the firm knows $v^{\*}$ is drawn from $f(v)$, suppose the firm sets an initial price, $p_0$ equal to $E[v] = \int_{0}^{\bar{v}} vf(v)dv$. After setting a price, the firm observes the following random variable, $\pi_0$:
 
