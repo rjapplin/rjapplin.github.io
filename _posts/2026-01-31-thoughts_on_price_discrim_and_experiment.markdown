@@ -180,7 +180,7 @@ Note the output at the end: The firm learns $v$ perfectly for every consumer! Ag
 
 ## Points of Contention
 
-There are some subtleties that people may be want to criticize about the arguments above. First, some may point out that it is good that people who do not buy under a single price will buy under perfect discrimination. Second, some Finally, some will point out there are others degrees of price discrimination in which consumer surplus actually *can* improve under certain conditions will note we have implicitly assumed a monopoly structure. I address these points below.
+There are some subtleties that people may be want to criticize about the arguments above. First, some may point out that it is good that people who do not buy under a single price will buy under perfect discrimination. Second, some will note we have implicitly assumed monopoly. Finally, some will point out there are others degrees of price discrimination in which consumer surplus actually *can* improve under certain conditions. I address these points below.
 
 &nbsp;
 
