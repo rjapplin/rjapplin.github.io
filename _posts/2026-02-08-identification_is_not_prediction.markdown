@@ -43,7 +43,7 @@ Where $$\hat{\beta}$$ and $$\hat{\theta}$$ are computed via some estimator; $$\h
 
 &nbsp;
 
-We can also extend this reasoning to out-of-sample $$R^2$$. Unlike the standard in-sample $$R^2$$, there is no canonical out-of-sample definition. I prefer the formulation advocated by Hawinkel, Waegeman, and Maere 2023:
+We can also extend this reasoning to out-of-sample $$R^2$$. Unlike the standard in-sample $$R^2$$, there is no canonical out-of-sample definition. I prefer the formulation advocated by Hawinkel, Waegeman, and Maere 2023[^1]:
 
 $$R^2_{oss} = 1 - \frac{E_{oos}[(y_{oos}-\beta f(X_{oos};\theta))^2]}{[(n+1)/n]^{-1}\text{var}[y]}$$
 
@@ -69,7 +69,7 @@ y = \beta f(X; \theta) + \gamma g(C; \psi) + \epsilon
 \end{aligned}
 $$
 
-Assume both $$f(X; \theta)$$ and $$g(C; \psi)$$ are exogenous -- that is, $$E[\epsilon | f]$$ and $$E[\epsilon | g]$$ are equal to 0. We will also assume $$\text{cov}(f, g) \ne 0$$. Additoinally, assume $$\text{var}(\epsilon) = \sigma^2$$.
+Assume both $$f(X; \theta)$$ and $$g(C; \psi)$$ are exogenous -- that is, $$E[\epsilon \vert f]$$ and $$E[\epsilon \rvert g]$$ are equal to 0. We will also assume $$\text{cov}(f, g) \ne 0$$. Additionally, assume $$\text{var}(\epsilon) = \sigma^2$$.
 
 &nbsp;
 
@@ -178,4 +178,8 @@ In this sense, it is not necessarily that the $$R^2$$ we obtain from the unident
 
 It is well known that prediction does not imply identification. But, identification does not imply prediction. Given enough noise in your error, a perfectly identified model can have terrible predictive ability. In turn, a model with good predictive ability can mislead on the true underlying predictive power of a given feature set.
 
+&nbsp;
+
 An important implication that arises from this discussion pertains to the nature of the error term. Too often we hand wave away the error term by saying things like "no model is perfect." Some error, of course is just noise. It would be prudent, though, to be explicit about is inside one's error term. Is it truly random noise? I would argue in many cases, probably not. This is a topic in and of its own that I'm currently cooking up something for. So until then, if someone tries to suggest that estimates are wrong simply due to poor predictive power, be sure to tell them that is nonsense: Poor predictive ability tells you nothing about identification!
+
+[^1]: Hawinkel, S., Waegeman, W., & Maere, S. (2024). Out-of-Sample R2: Estimation and Inference. The American Statistician, 78(1), 15–25. [https://doi.org/10.1080/00031305.2023.2216252](https://doi.org/10.1080/00031305.2023.2216252)
