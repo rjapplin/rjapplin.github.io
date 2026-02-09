@@ -170,16 +170,16 @@ Let $$\hat{\alpha} = (X'X)^{-1}X'C$$. Note that $$\hat{\alpha}$$ is the OLS esti
 
 &nbsp;
 
-In this sense, it is not necessarily that the $$R^2$$ we obtain from the unidentified model is misleading -- so long as $$x$$ and $$c$$ continue to maintain their relationship, $$x$$ by itself can be decently predictive of $$y$$. However, we can easily imagine that if this relationship broke down that $$x$$'s predictive power would weaken.
+In this sense, it is not necessarily that the $$R^2$$ we obtain from the unidentified model is misleading in the sense of being wrong -- so long as $$x$$ and $$c$$ continue to maintain their relationship, $$x$$ by itself can be decently predictive of $$y$$. However, we can easily imagine that if this relationship broke down that $$x$$'s predictive power would weaken. And so, it is misleading because by itself, it can't tell you that patt of the predictive ability might be coming from correlation with omitted features - and not the included features themselves.
 
 &nbsp;
 
 ## Concluding Thoughts
 
-It is well known that prediction does not imply identification. But, identification does not imply prediction. Given enough noise in your error, a perfectly identified model can have terrible predictive ability. In turn, a model with good predictive ability can mislead on the true underlying predictive power of a given feature set.
+It is well known that prediction does not imply identification. But, it also turns out identification does not imply prediction. Given enough noise in the data generating process, a perfectly identified model can have terrible predictive ability. At the same time, a model with good predictive ability can mislead on the true underlying predictive power of a given feature set.
 
 &nbsp;
 
-An important implication that arises from this discussion pertains to the nature of the error term. Too often we hand wave away the error term by saying things like "no model is perfect." Some error, of course is just noise. It would be prudent, though, to be explicit about is inside one's error term. Is it truly random noise? I would argue in many cases, probably not. This is a topic in and of its own that I'm currently cooking up something for. So until then, if someone tries to suggest that estimates are wrong simply due to poor predictive power, be sure to tell them that is nonsense: Poor predictive ability tells you nothing about identification!
+An important implication that arises from this discussion pertains to the nature of the error term. Too often we hand wave away the error term by saying things like "no model is perfect." Some error, of course is just noise. It would be prudent, though, to be explicit about what exactly is inside one's error term beyond just noise. Is it truly just random noise? I would argue in many cases, probably not. This is a topic in and of its own that I'm currently cooking up something for. So until then, if someone tries to suggest that estimates are wrong simply due to poor predictive power, be sure to tell them that is nonsense: Poor predictive ability tells you nothing about identification!
 
 [^1]: Hawinkel, S., Waegeman, W., & Maere, S. (2024). Out-of-Sample R2: Estimation and Inference. The American Statistician, 78(1), 15–25. [https://doi.org/10.1080/00031305.2023.2216252](https://doi.org/10.1080/00031305.2023.2216252)
