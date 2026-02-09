@@ -123,7 +123,7 @@ where $$E[v \vert b_{i-1}]$$ denotes the distribution conditional on whether the
 
 &nbsp;
 
-### A A Simulation With Many Consumers
+### A Simulation With Many Consumers
 
 It is easy to take the theory and map it to a simultation. One pesky thing we have to confront though is that the above strategy is only guranteed to converge if we have continuous prices (i.e., $$p \in \mathbf{R}$$). In real life, consumer prices tend to only be to two decimal places. And although we can approximate continuous prices via a simulation, computer precision is only so fine. Hence if we naievly implement the strategy outlined above, we'd run the risk of possibly getting "stuck." The simulation below takes a different approach than the strategy above to avoid getting "stuck." In words, the strategy below exploits the relatively small grid of prices (0 up to 1 in increments of 0.01). For each consumer, the idea is to charge them each price until they do not buy. Once we see them not buy, we know the last price we charged them was their $$v$$.
 
