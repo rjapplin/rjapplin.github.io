@@ -6,7 +6,7 @@ permalink: /about/
 
 &nbsp;
 
-I am a data scientist with formal training and research experience in economics, statistics/econometrics, causal inference, and firm strategy/industrial organization. Currently, I am lucky to work as an Econometrician for Tinuiti. I hold a Ph.D. in economics from the University of Kentucky.
+I am a data scientist with formal training and research experience in economics, statistics/econometrics, causal inference, and firm strategy/industrial organization. I hold a Ph.D. in economics from the University of Kentucky.
 
 &nbsp;
 
