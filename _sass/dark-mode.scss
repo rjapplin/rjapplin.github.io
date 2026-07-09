@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@mixin dark-colors {
+  --color-bg: #1a1a1a;
+  --color-text: #e0e0e0;
+  --color-link: #e0e0e0;
+  --color-link-hover: #999;
+  --color-border: #444;
+  --color-blockquote-border: #666;
+  --color-hr: #333;
+  --color-table-hover: #2a2a2a;
+  --color-table-th-bg: #2a2a2a;
+  --color-table-td-border: #444;
+  --color-table-th-border: #555;
+  --color-code-bg: #2d2d2d;
+  --color-code-border: #444;
+  --color-pinned-bg: #1a2635;
+  --color-pinned-border: #4a9eff;
+  --color-pinned-heading: #7ab8ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-colors;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include dark-colors;
+}
