@@ -1,5 +1,24 @@
 @charset "utf-8";
 
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-link: #000000;
+  --color-link-hover: #aaa;
+  --color-border: #aaa;
+  --color-blockquote-border: #888;
+  --color-hr: #eee;
+  --color-table-hover: #f5f5f5;
+  --color-table-th-bg: #f5f5f5;
+  --color-table-td-border: #ddd;
+  --color-table-th-border: #ccc;
+  --color-code-bg: #eeeeee;
+  --color-code-border: #cccccc;
+  --color-pinned-bg: #f5f9ff;
+  --color-pinned-border: #0070f3;
+  --color-pinned-heading: #004a9f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,21 +28,23 @@
 html,
 body {
   height: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-link);
 }
 
 a:hover {
-  color: #aaa;
+  color: var(--color-link-hover);
 }
 
 blockquote {
   margin: 15px;
   padding-left: 15px;
-  border-left: 2px solid #888;
+  border-left: 2px solid var(--color-blockquote-border);
 }
 
 h1,
@@ -43,7 +64,7 @@ h2 {
 
 hr {
   margin: 10px;
-  border: 1px solid #eee;
+  border: 1px solid var(--color-hr);
 }
 
 img {
@@ -64,18 +85,18 @@ table {
 }
 
 tbody tr:hover {
-  background-color: #f5f5f5;
+  background-color: var(--color-table-hover);
 }
 
 td {
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-table-td-border);
 }
 
 th {
   padding: 8px;
-  border-bottom: 1px solid #ccc;
-  background: #f5f5f5;
+  border-bottom: 1px solid var(--color-table-th-border);
+  background: var(--color-table-th-bg);
 }
 
 // markdown reset
