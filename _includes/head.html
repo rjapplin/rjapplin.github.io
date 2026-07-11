@@ -15,8 +15,8 @@
     site.keywords | join: ','
   }}{% endif %}" />
 {% endif %}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" href="/favicon.ico" />
 <link
   rel="alternate"
   type="application/rss+xml"
@@ -37,17 +37,9 @@
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}
-{% if site.mathjax %}
+{% if page.mathjax %}
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-  async>
-</script>
-{% endif %}
-{% if site.diagram %}
-<script src="/assets/scripts/jekyllpaper.js" async></script>
-<script
-  src="https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js"
-  onload="javascript:loadMermaid();"
   async>
 </script>
 {% endif %}

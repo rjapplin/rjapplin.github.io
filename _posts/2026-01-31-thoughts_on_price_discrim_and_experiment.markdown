@@ -5,6 +5,7 @@ date:   2026-01-31
 last_modified_at: 2026-01-31
 categories: [economics]
 pinned: false
+mathjax: true
 ---
 
 &nbsp;
