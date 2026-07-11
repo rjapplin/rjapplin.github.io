@@ -28,8 +28,8 @@ analytics: # the Google Analytics property ID, e.g. UA-XXXXX-Y
 comments: false # enable comments
 disqus: # disqus account
 
-mathjax: true # Math support
-diagram: true # Diagrams support
+mathjax: false # Math support (enabled per-post via front matter)
+diagram: false # Diagrams support
 
 paginate: 25
 paginate_path: '/page:num/'
