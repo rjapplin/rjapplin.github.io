@@ -15,7 +15,7 @@
         {% include footer.html %}
       </footer>
     </div>
-    {% include mathjax.html %}
+    {% if page.mathjax %}{% include mathjax.html %}{% endif %}
     <script>
       function isDark() {
         var t = document.documentElement.getAttribute('data-theme');
