@@ -62,5 +62,4 @@ You can find all the documentation in the github repo: [https://github.com/rjapp
 
 ---
 
-[^1]: Yes, dexpter is mostly vibe-coded. If you're not down with that - totally fair! dexpter does what I need it to do and does it good enough. If you try it out and find
-it useful, that's great! If you try it out and think it sucks, that's also great!
+[^1]: Yes, dexpter is mostly vibe-coded. If you're not down with that - totally fair! dexpter does what I need it to do and does it good enough. If you try it out and find it useful, that's great! If you try it out and think it sucks, that's also great!
