@@ -10,6 +10,8 @@ mathjax: true
 
 *Note: What follows is satire that was produced completely with my brain and my brain only… for better or for worse.* 
 
+&nbsp;
+
 Hello there! Are you an AI leader that is paid a disgusting amount of money to the point you have no idea what life is like for the average person all so that you can help build a technology that struggles to identify bananas but will supposedly kill us all? If yes, perfect this article is for you. If no, this article can still serve as good to know knowledge in case you by chance become an AI leader that is paid a disgusting amount of money to the point that you no longer have any idea what life is like for the average person all so that you can help build a technology that struggles to identify bananas but will supposedly kill us all! So either way, you should read this!
 
 &nbsp;
